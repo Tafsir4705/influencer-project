@@ -1,72 +1,203 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Influencer-project</title>
-    <!-- boatstrapr css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- Font-Awasume -->
-    <script src="https://kit.fontawesome.com/440e7ca93b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Influencer-Project</title>
+  <!-- font Awasume link -->
+  <script src="https://kit.fontawesome.com/440e7ca93b.js" crossorigin="anonymous"></script>
+  <!-- Boatstrapt Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- style css link -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header-section">
-<!-- Navigation-Manu -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <header class="header-section px-5 bg-light">
+    <!-- Nav Area -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Influencer Products</a>
-    <button 
-    class="navbar-toggler" 
-    type="button" 
-    data-bs-toggle="collapse" 
-    data-bs-target="#navbarNav" 
-    aria-controls="navbarNav" 
-    aria-expanded="false" 
-    aria-label="Toggle navigation">
+    <div class="h3"><a class="navbar-brand" href="#">Influencer products</a></div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav d-flex">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          
+          <div class="d-flex justify-content-end"><a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Product</a>
+          <a class="nav-link" href="#">Products</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Sing Up</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-disabled="true">Login</a>
-<i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <a class="nav-link disabled" aria-disabled="true">Log In</a>
+          <i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i></div>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<!-- header-section -->
-<div class="cointainer">
-    <div class="row align-items-center">
-        <!-- contant-area -->
-        <div class="col">
-            <p class="h1">Start your Journey as 
-                Influencer</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem 
+<!-- Header Seaction -->
+<div class="container py-4">
+  <div class="row align-items-center">
+    <!-- Contant-area -->
+    <div class="col">
+      <p class="h1">Start your Journey as 
+
+Influencer</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem 
 vestibulum sed scelerisque eros. Lectus faucibus.</p>
-<p class="btn btn-danger">Preebook now <i class="fa-solid fa-arrow-right"></i></p>
-        </div>
-        <!-- image-area -->
-        <div class="col">
-          <img class="img-fluid" src="images/main-camera.png" alt="Camera">
-        </div>
+<!-- Button -->
+<p class="btn btn-danger rounded-pill px-4">Preebook now <i class="fa-solid fa-arrow-right"></i></p>
     </div>
+    <!-- Image-Aerea -->
+    <div class="col main-camera d-flex align-items-center">
+      <img class="img-fluid" src="images/main-camera.png" alt="">
+    </div>
+  </div>
 </div>
-    </header>
-    <!-- Boatstrapt JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </header>
+  <section>
+    <div class="container logo py-5">
+      <div class="row">
+        <div class="col"><img src="logos/Alibaba.svg" alt=""></div>
+        <div class="col"><img src="logos/Amazon.svg" alt="i"></div>
+        <div class="col"><img src="logos/Daraz.pk Logo.svg" alt=""></div>
+        <div class="col"><img src="logos/Ebay.svg" alt=""></div>
+        <div class="col"><img src="logos/Rakuten.svg" alt=""></div>
+        <div class="col"><img src="logos/Target.svg" alt=""></div>
+        <div class="col"><img src="logos/Walmart.svg" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <section class="d-flex justify-content-evenly py-5">
+    <div class="card" style="width: 18rem;">
+  <img src="images/tripod.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Flex Tripod</h5>
+    <span><h5>$50.48</h5></span>
+    <div class="icon-i"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+    <p class="card-text">Wordwide shifting available Buyers protection possible!</p>
+    
+  </div></div>
+    <div class="card" style="width: 18rem;">
+  <img src="images/mic.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">microphone</h5>
+    <span><h5>$120.25</h5></span>
+    <div class="icon-i"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+    <p class="card-text">Wordwide shifting available Buyers protection possible!</p>
+    
+  </div></div>
+    <div class="card" style="width: 18rem;">
+  <img src="images/airpod.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Airbuds</h5>
+    <span><h5>$100.00</h5></span>
+    <di class="icon-i"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+    <p class="card-text">Wordwide shifting available Buyers protection possible!</p>
+    
+  </div></div>
+    
+  </section>
+  <section class="d-flex justify-content-evenly py-5">
+    <div class="card" style="width: 18rem;">
+  <img src="images/drone.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Drone</h5>
+    <span><h5>$980.25</h5></span>
+    <div class="icon-i"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+    <p class="card-text">Wordwide shifting available Buyers protection possible!</p>
+    
+  </div></div>
+    <div class="card" style="width: 18rem;">
+  <img src="images/lights.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Light Setup</h5>
+    <span><h5>$1200.00</h5></span>
+    <div class="icon-i"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+    <p class="card-text">Wordwide shifting available Buyers protection possible!</p>
+    
+  </div></div>
+    <div class="card" style="width: 18rem;">
+  <img src="images/setup.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Photoshoot set</h5>
+    <span><h5>$820.40</h5></span>
+    <di class="icon-i"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+    <p class="card-text">Wordwide shifting available Buyers protection possible!</p>
+    
+  </div></div>
+    
+  </section>
+ 
+  <section class="d-flex justify-content-evenly py-5">
+     <h3 class="d-flex justify-content-end">Popular Collection</h3>
+    <div class="card" style="width: 18rem;">
+  <img src="images/camera.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Vlogging Camera</h5>
+    <span><h5>$1800.80</h5></span>
+    <div class="icon-i"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+    <p class="card-text">Wordwide shifting available Buyers protection possible!</p>
+    
+  </div></div>
+    <div class="card" style="width: 18rem;">
+  <img src="images/single-light.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Green Screen</h5>
+    <span><h5>$25.48</h5></span>
+    <div class="icon-i"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+    <p class="card-text">Wordwide shifting available Buyers protection possible!</p>
+    
+  </div></div>
+    <div class="card" style="width: 18rem;">
+  <img src="images/action.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Action Camera</h5>
+    <span><h5>$380.00</h5></span>
+    <di class="icon-i"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+    <p class="card-text">Wordwide shifting available Buyers protection possible!</p> 
+   
+  </div></div>
+  </section>
+  <div class="d-flex justify-content-end px-5"><p class="pink-color"> See More <i class="fa-solid fa-arrow-right"></i></p></div>
+  <section>
+   <div class="container">
+    <div class="row">
+      <!-- image-area -->
+      <div class="col">
+        <img src="images/gear.png" alt="">
+      </div>
+      <!-- containt area -->
+      <div class="col">
+        <h1>Featured products at one place</h1>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor 
+do amet sint. Velit officia consequat duis enim velit mollit. 
+Exercitation veniam consequat sunt nostrud amet.</p>
+<p class="btn btn-danger">Join Now<i class="fa-solid fa-arrow-right"></i></p>
+      </div>
+      
+    </div>
+   </div>
+  </section>
+  <footer class=" container py-4">
+    <div class="justify-content-center">
+      <h1>Influencer products</h1>
+      <p>Copyright © 2020 influencer products
+All rights reserved</p>
+    </div>
+    <div class="logo-item px-3">
+      <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-dribbble"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-youtube"></i>
+    </div>
+  </footer>
+
+
+
+  <!--Boatstrapt Js  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
