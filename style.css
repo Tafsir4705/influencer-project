@@ -20,3 +20,6 @@ align-items: center;
     background-color: rgb(3, 3, 99);
 }
 
+footer i{
+    padding: 5px;
+}
