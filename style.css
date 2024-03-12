@@ -14,8 +14,8 @@ color: orange;
     color: rgb(253, 130, 151);
 }
 footer{
-    gap: 20px;
-    align-items: center;
+    height: 200px;
+align-items: center;
     color: white;
     background-color: rgb(3, 3, 99);
 }
